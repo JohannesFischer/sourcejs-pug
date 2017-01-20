@@ -1,7 +1,7 @@
-Jade support for SourceJS
+Pug support for SourceJS
 ===============
 
-[SourceJS](http://sourcejs.com) middleware to support [Jade](http://jade-lang.com/) markup language (`*.jade`) instead of native `*.src`.
+[SourceJS](http://sourcejs.com) middleware to support [Pug](https://pugjs.org/) markup language (`*.pug`) instead of native `*.src`.
 
 Works with SourceJS v.0.5.6+.
 
@@ -10,28 +10,24 @@ Works with SourceJS v.0.5.6+.
 To install, run npm in `sourcejs/user` folder:
 
 ```
-npm install sourcejs-jade --save
+npm install sourcejs-pug --save
 ```
 
 Then restart your SourceJS application, middleware will be loaded automatically.
 
 ## Usage
 
-After installing middleware, instead of `index.src` pages, you can `index.jade` files with Jade markup.
+After installing middleware, instead of `index.src` pages, you can `index.jade` files with Pug markup.
 
-index.jade
+index.pug
 
 ```
-h1 Jade - node template engine
+h1 Pug - node template engine
 
 #container.col
-    p.
-        Jade is a terse and simple
-        templating language with a
-        strong focus on performance
-        and powerful features.
+  p.
+    Pug is a terse and simple
+    templating language with a
+    strong focus on performance
+    and powerful features.
 ```
-
-## Examples
-
-Jade Spec page example - https://sourcejs.com/specs/example-specs-showcase/jade ([source](https://github.com/sourcejs/example-specs-showcase/blob/master/jade/index.jade)).

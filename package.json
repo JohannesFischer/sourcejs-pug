@@ -1,24 +1,20 @@
 {
-  "name": "sourcejs-jade",
+  "name": "sourcejs-pug",
   "version": "0.1.0",
-  "description": "Jade support for SourceJS",
+  "description": "Pug support for SourceJS",
   "main": "index.js",
   "dependencies": {
-    "jade": "^1.11.0"
+    "pug": "^2.0.0-beta6"
   },
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sourcejs/sourcejs-jade.git"
-  },
   "keywords": [
     "sourcejs",
-    "jade"
+    "pug"
   ],
-  "author": "Robert Haritonov <r@rhr.me>",
+  "author": "Johannes Fischer <hello@joahnnes-fischer.de>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sourcejs/sourcejs-jade/issues"
-  },
-  "homepage": "https://github.com/sourcejs/sourcejs-jade"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohannesFischer/sourcejs-pug"
+  }
 }
