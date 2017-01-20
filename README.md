@@ -10,14 +10,14 @@ Works with SourceJS v.0.5.6+.
 To install, run npm in `sourcejs/user` folder:
 
 ```
-npm install sourcejs-pug --save
+npm i sourcejs-pug -S
 ```
 
 Then restart your SourceJS application, middleware will be loaded automatically.
 
 ## Usage
 
-After installing middleware, instead of `index.src` pages, you can `index.jade` files with Pug markup.
+After installing middleware, instead of `index.src` pages, you can `index.pug` files with Pug markup.
 
 index.pug
 
