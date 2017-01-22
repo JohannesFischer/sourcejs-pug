@@ -1,6 +1,8 @@
 Pug support for SourceJS
 ===============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JohannesFischer/sourcejs-pug.svg)](https://greenkeeper.io/)
+
 [SourceJS](http://sourcejs.com) middleware to support [Pug](https://pugjs.org/) markup language (`*.pug`) instead of native `*.src`.
 
 Works with SourceJS v.0.5.6+.
